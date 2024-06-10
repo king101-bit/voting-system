@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting system</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+>
+</head>
+<body>
+    <h1 class="title has-text-centered mt-4">Voting system</h1>
+    <div class="container">
+        <h1>Vote for Your Favorite Option</h1>
+        <div class="admin-section field has-addons">
+            <div class="control is-expanded">
+                <input type="text" class="input-small" id="new-option" placeholder="Enter new option">
+                <button onclick="addOption()" class="button">Add Option</button>
+            </div>
+        </div>
+        <div class="options" id="options">
+            <!-- Options will be dynamically added here -->
+        </div>
+        <div class="results" id="results">
+            <h2>Results:</h2>
+            <!-- Results will be dynamically added here -->
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0; /* Ensure there is no default margin */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the container */
+}
+
+.admin-section {
+    margin-bottom: 20px;
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.option {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+.option:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results p {
+    font-size: 18px;
+}
