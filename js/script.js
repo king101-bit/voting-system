@@ -1,4 +1,4 @@
-const serverUrl = 'http://localhost:3000';
+const serverUrl = 'https://friendly-dango-400831.netlify.app/';
 
 let votes = {};
 let voted = false;
